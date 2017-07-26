@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libFrameEncoder", "libFrameEncoder\libFrameEncoder.vcproj", "{1F80D1F3-E037-43D1-B053-5CAF7698F090}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FBO Example", "FBO Example\FBO Example.vcproj", "{F5C62B43-112C-4DC9-9DE1-87CB27F61590}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1F80D1F3-E037-43D1-B053-5CAF7698F090} = {1F80D1F3-E037-43D1-B053-5CAF7698F090}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F80D1F3-E037-43D1-B053-5CAF7698F090}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1F80D1F3-E037-43D1-B053-5CAF7698F090}.Debug|Win32.Build.0 = Debug|Win32
+		{1F80D1F3-E037-43D1-B053-5CAF7698F090}.Release|Win32.ActiveCfg = Release|Win32
+		{1F80D1F3-E037-43D1-B053-5CAF7698F090}.Release|Win32.Build.0 = Release|Win32
+		{F5C62B43-112C-4DC9-9DE1-87CB27F61590}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F5C62B43-112C-4DC9-9DE1-87CB27F61590}.Debug|Win32.Build.0 = Debug|Win32
+		{F5C62B43-112C-4DC9-9DE1-87CB27F61590}.Release|Win32.ActiveCfg = Release|Win32
+		{F5C62B43-112C-4DC9-9DE1-87CB27F61590}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
